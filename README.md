@@ -1,16 +1,20 @@
-# Git Server Written in Go
+# gitd: Git Server Written in Go
+
+## Installing gitd
+
+To install gitd run the following project:
+
+    go get github.com/dcu/gitd
 
 ## Running the server
 
-To run this project just type the following command:
+Then start the server using the following command:
 
-    $ GOPATH=$PWD go run bin/gitsrv.go
+    gitd
 
-From the project root.
 
 ## Pending stuff
 
 - Security.
-- Run in background and generate pid file.
 - Config options.
 
